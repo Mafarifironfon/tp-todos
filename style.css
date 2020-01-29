@@ -3,3 +3,14 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+h4 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: rgb(253, 253, 253);
+}
+
+h2 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+}
