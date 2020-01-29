@@ -1,10 +1,11 @@
 const postList = document.getElementById("listPost")
 
-fetch("http://localhost:3000/api/v1/")
+function updateView(){
+    fetch("http://localhost:3000/api/v1/todos/")
     .then(res => res.json())
     .then(data => listPost(data))
     .catch(err => handleError(err));
-
+}
     function listPost (data){
         let html = "";
         for(let toDo of data){
@@ -30,3 +31,5 @@ fetch("http://localhost:3000/api/v1/")
     function handleError (err){
         console.error(err);
     }
+
+    updateView();
