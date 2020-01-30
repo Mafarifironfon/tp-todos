@@ -1,16 +1,65 @@
 body {
+    font-family: 'Quattrocento Sans', sans-serif;
     background: linear-gradient(45deg, #873a7b, #e99343);
     width: 100vw;
     height: 100vh;
 }
 
+.card {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 190px;
+    background-color: rgba(214, 148, 62, 0.349);
+}
+
+.btn {
+    background-color: rgba(255, 235, 205, 0.404);
+}
+
+label {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 168, 87);  
+}
+
+/* LES TITRES */
+
+h5{
+    margin: auto;
+    padding: auto;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 17px;
+    color: rgb(75, 75, 75);
+   
+}
+
 h4 {
     font-family: 'Quattrocento Sans', sans-serif;
     color: rgb(253, 253, 253);
+    margin-top: 20px;
 }
 
 h2 {
     font-family: 'Quattrocento Sans', sans-serif;
     color: rgb(253, 253, 253);
     font-weight: bold;
+    margin-top: 10px;
+}
+
+/* LES IMAGES */
+
+.plus {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+
+.far {
+    color: crimson;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
 }
