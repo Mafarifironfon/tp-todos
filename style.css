@@ -12,10 +12,6 @@ body {
     background-color: rgba(214, 148, 62, 0.349);
 }
 
-.btn {
-    background-color: rgba(255, 235, 205, 0.404);
-}
-
 label {
     font-family: 'Quattrocento Sans', sans-serif;
     font-weight: bold;
@@ -29,8 +25,7 @@ h5{
     padding: auto;
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 17px;
-    color: rgb(75, 75, 75);
-   
+    color: rgb(75, 75, 75); 
 }
 
 h4 {
@@ -48,6 +43,12 @@ h2 {
 
 /* LES IMAGES */
 
+#logo {
+    border-radius: 1050vw;
+    height: 120px;
+    width: 120px;
+}
+
 .plus {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -55,9 +56,9 @@ h2 {
     width: 50px;
 }
 
-
 .far {
-    color: crimson;
+    color:#873a7b;
+    font-size: 18px;
     display: flex;
     align-items: center;
     width: 40px;
